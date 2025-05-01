@@ -1,0 +1,53 @@
+name: Quizy
+description: "Projet Flutter Examen"
+
+publish_to: 'none'
+
+version: 1.0.0+2
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^14.1.5
+  
+  # Core packages
+  cupertino_icons: ^1.0.6
+  http: ^1.1.0
+  shared_preferences: ^2.2.2
+  html_unescape: ^2.0.0
+  
+  # Audio/Feedback
+  just_audio: ^0.9.35
+  vibration: ^3.1.3
+  
+  # Localization
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+  # State management
+  provider: ^6.1.1
+  flutter_riverpod: ^2.4.9
+
+  # Styling
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.4.2
+  build_runner: ^2.4.6
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/icon.png"
+  adaptive_icon_background: "#0D47A1"
+
+flutter:
+  uses-material-design: true
+  generate: true
